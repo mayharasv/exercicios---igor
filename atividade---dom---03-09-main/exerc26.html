@@ -1,0 +1,27 @@
+<!-- Ao perder o foco (onblur), o campo volta ao branco. -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>26</title>
+        <script>
+
+
+
+            function pintarFundo(){
+                var campo = document.querySelector('input')
+                input.style.backgroundColor = "yellow"
+            }
+
+            function voltarBranco(){
+                var campo = document.querySelector('input')
+                input.style.backgroundColor = "white"
+            }
+
+        </script>
+    </head>
+    <body>
+        <input type="text" name="campo" onfocus="pintarFundo()" onblur="voltarBranco()" >
+
+    </body>
+</html>

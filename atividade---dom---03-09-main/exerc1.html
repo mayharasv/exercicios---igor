@@ -1,0 +1,23 @@
+<!-- Crie um botão que, ao ser clicado, exibe no 
+ console o texto de um parágrafo usando getElementById. -->
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>1</title>
+        <script>
+            function mostrarTexto(){
+            var texto = document.getElementById('#texto').innerHTML
+            console.log(texto)
+            }
+
+        </script>
+    </head>
+    <body>
+        <p id="texto">Olá, eu sou um parágrafo!</p>
+        <button onclick="mostrarTexto()">Clique aqui</button>
+
+
+    </body>
+</html>

@@ -1,0 +1,19 @@
+<!-- Crie um input que mostre no console o que está 
+sendo digitado (oninput). -->
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>27</title>
+        <script>
+            function mostrarConsole(){
+                var campo = document.getElementById('campo')
+                console.log(campo.value)
+            }
+        </script>
+    </head>
+    <body>
+        <input type="text" id="campo" oninput="mostrarConsole()">
+    </body>
+</html>

@@ -1,0 +1,28 @@
+Crie uma imagem que troque para outra quando o mouse passa em cima.
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>29</title>
+        <script>
+
+
+
+            function trocarImagem(){
+
+                var animal = "https://cdn.pixabay.com/photo/2012/02/24/16/59/swan-16736_1280.jpg"
+                var imagem = document.querySelector("img")
+                imagem.setAttribute("src", animal)
+
+            }
+
+
+        </script>
+    </head>
+    <body>
+
+        <img  src="assets/img/ave.webp" alt="imagem_calopsita" onmouseover="trocarImagem()">
+    
+    </body>
+</html>

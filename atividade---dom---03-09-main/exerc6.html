@@ -1,0 +1,23 @@
+<!-- Ao clicar em um botão, troque o valor de um <input> 
+ para "Preenchido automaticamente". -->
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>6</title>
+        <script>
+           
+            function preencher(){
+                var campo = document.querySelector('#campo') 
+                campo.value = "Preenchido automaticamente" 
+            }
+        </script>
+    </head>
+    <body>
+        <input type="text" id="campo">
+        <button onclick="preencher()">clique aqui</button>
+
+
+    </body>
+</html>

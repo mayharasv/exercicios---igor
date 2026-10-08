@@ -1,0 +1,36 @@
+<!-- Faça uma página que mostre em um <p> a data e hora atuais ao clicar em um
+botão. -->
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>8</title>
+        <script>
+           
+            function exibirData(){
+                var ano = new Date().getFullYear()
+                var mes = new Date().getMonth() + 1
+                var dia = new Date().getDay
+                
+                var data = dia + '/' + mes + '/' + ano 
+
+                document.querySelector('#exibir').innerHTML = data
+            }
+
+
+            function mostrarData(){
+                var data = document.getElementById('data')
+                var agora = new Date()
+                data.innerText = agora
+            }
+
+        </script>
+    </head>
+    <body>
+       <p id="data"></p>
+        <button onclick="mostrarData()">Mostrar data</button>
+
+
+    </body>
+</html>

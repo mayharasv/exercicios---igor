@@ -1,0 +1,18 @@
+Faça um botão que adiciona uma nova linha de texto em um <p>.
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>31</title>
+        <script>
+            function adicionarLinha() {
+                var p = document.querySelector('p').innerHTML += '<br/> seu nome'
+            }
+        </script>
+    </head>
+    <body>
+        <p id="paragrafo">Linha de texto existente</p>
+        <button onclick="adicionarLinha()">Adicionar Linha</button>
+    </body>
+</html>

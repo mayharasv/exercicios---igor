@@ -1,0 +1,21 @@
+<!-- ao clicar em um botão, aumente o tamanho da 
+fonte de um parágrafo para 30px. -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>12</title>
+        <script>
+            function aumentarFonte() {
+                var paragrafo = document.querySelector("#paragrafo");
+                paragrafo.style.fontSize = "30px";
+            }
+
+        </script>
+    </head>
+    <body>
+       <p id="paragrafo"> Um paragrafo beeem grande</p>
+       <button onclick="aumentarFonte()">Aumentar Fonte</button>
+
+    </body>
+</html>

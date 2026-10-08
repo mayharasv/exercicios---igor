@@ -1,0 +1,26 @@
+Crie uma lista <ul> com itens e um botão que altere o texto  
+do primeiro item.
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>9</title>
+        <script>
+            function alterarItem() {
+                var item1 = document.querySelector('#item1')
+                item1.innerHTML = 'pera'
+            }
+        </script>
+    </head>
+    <body>
+        <ul>
+            <li id="item1">Maçã</li>
+            <li>Banana</li>
+            <li>Laranja</li>
+        </ul>
+        <button onclick="alterarItem()">Alterar primeiro item</button>
+
+
+    </body>
+</html>

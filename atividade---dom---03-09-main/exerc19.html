@@ -1,0 +1,19 @@
+Ao clicar em um botão, altere a cor de fundo de uma div .
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>19</title>
+        <script>
+           function alterarCor() {
+            var div = document.querySelector('#div')
+            div.style.backgroundColor = 'lightblue'
+           }
+
+        </script>
+    </head>
+    <body>
+       <div id="div" style="width: 100px; height: 100px; background-color: lightgray;"></div>
+       <button onclick="alterarCor()">Mudar Cor</button>
+    </body>
+</html>

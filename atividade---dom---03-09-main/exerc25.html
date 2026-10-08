@@ -1,0 +1,20 @@
+<!-- Crie um campo de texto que, ao ganhar foco (onfocus), 
+pinte o fundo de amarelo. -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>25</title>
+        <script>
+            function pintarFundo() {
+                var campo = document.getElementById('campo')
+                campo.style.backgroundColor = "yellow"
+            }
+
+        </script>
+    </head>
+    <body>
+        <input type="text" id="campo" onfocus="pintarFundo()">
+
+    </body>
+</html>

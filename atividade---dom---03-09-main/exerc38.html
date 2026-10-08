@@ -1,0 +1,26 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>3</title>
+        <script>
+
+
+            function calculadora(){
+                var primeiro = Number(document.querySelector('#primeiro').value)
+                var segundo = Number(document.querySelector('#segundo').value)
+                var p = document.querySelector('p')
+
+                p.innerHTML = (primeiro + segundo)
+            }
+        </script>
+    </head>
+    <body>
+        <input type="number" name="numero1" id="primeiro">
+        <input type="number" name="numero2" id="segundo">
+
+        <p></p>
+
+        <button onclick="calculadora()">Clique aqui</button>
+    </body>
+</html>

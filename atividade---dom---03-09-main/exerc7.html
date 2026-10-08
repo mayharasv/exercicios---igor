@@ -1,0 +1,25 @@
+<!-- Crie um botão que mostre a quantidade de caracteres 
+ dentro de um parágrafo -->
+<!-- (.innerText.length). -->
+
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>7</title>
+        <script>
+            function quantidade(){
+                var texto = document.querySelector('#texto')
+                console.log(texto.innerText.length)
+            } 
+
+        </script>
+    </head>
+    <body>
+        <p id="texto">Esse texto possui vários caracteres.</p>
+        <button onclick="quantidade()">Contar</button>
+    
+
+    </body>
+</html>

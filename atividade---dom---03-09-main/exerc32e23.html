@@ -1,0 +1,34 @@
+Crie um botão que adiciona um item em uma lista (<ul>).
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>3</title>
+        <script>
+            function adicionarItem(){
+                var ul = document.querySelector('#ul')
+                var li = document.createElement('li')
+                li.textContent = 'Novo item'
+                ul.appendChild(li)
+            }
+            function remove(){
+                var li = document.querySelector('#aa')
+                li.remove()
+            }
+        
+
+
+        </script>
+    </head>
+    <body>
+        <ul id="ul">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <button onclick="adicionarItem()">Adicionar Item</button>
+        <button onclick="remove()">Remover</button>
+    
+    </body>
+</html>
